@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-logo{
+    height: 70px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-item-menu{
+    color: #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo{
+    border-top: solid #FFF2E7 0.3px;
+    margin-bottom: 48px;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-principal-botton{
+    background-color:#ECD6C4 ;
+    border-radius: 20px;
+    height: 65px;
+    width: 180px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: #2F2325;
+    font-weight: 400;
+}
+
+.conteudo-principal-botton:hover{
+    background: cornsilk;
+}
+
+.conteudo-principal-img{
+    height: 430px ;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: solid #FFF2E7 0.3px;
+    padding-top: 48px;
+    color: #FFF2E7;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Righteous', cursive;
+    color: #ECD6C4;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.rodape{
+    border-top: solid #FFF2E7 0.3px;
+    padding: 32px;
+}
+
+.rodape-logo{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
